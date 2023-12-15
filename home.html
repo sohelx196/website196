@@ -13,20 +13,54 @@
       margin: 20px;
      }
 
-     #intro{
-     margin: 20px;
-     }
+  #nav1{
+    
+    text-align: center;
+    margin-left: 210px;
+    
+  }
+  #nav1 a{
+    text-decoration: none;
+  }
+  #gitlogo:hover{
+    background-color:yellow;
+  
+  }
+ 
+  
+  #nav1 a:hover{
+    background-color: whitesmoke;
+    color:blue;
+    border: 2px solid grey;
+  }
+  #parent{
+    
+    display: flex;
+    
+   
+  }
+#logo img{
+  display: inline-block;
 
-
+  height: 20px;
+  width: 20px;
+}
     </style>
 </head>
 <body>
+  <div id="parent">
+             <div id="logo">
+        <img src="D:\JAVA PROGRAMME\DEMO-WEB\Web Projects\favicon.ico" height="0px" width="0px">
+    </div>
     <div id="nav1">
-    <a  href="home.html">HOME</a>
-    <a  href="about.html">ABOUT</a>
-    <a  href="contact.html">CONTACT</a>
-  </div>
 
+      <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="MyWork.html">MyWork</a>
+  </div>
+</div>
+ 
   <div id="first">
 <h1><pre>Hey,</h1></pre> <h1 title="Sohel Sheikh"><pre>I am</pre>
   <pre>a Web Devloper...</pre></h1>
@@ -38,13 +72,15 @@
 <h3>A Data Science student at SDITS,Khandwa. Currently I am learning Html and Css.</h3>
   </pre>
 <h3>Connect With Me:</h3>
-<img src="D:\JAVA PROGRAMME\web photos\Github_logo.png" height="20px" width="20px">
-<a href="https://github.com/sohelx196" target="_blank">Github</a><br>
+<img src="D:\JAVA PROGRAMME\DEMO-WEB\Web Projects\Github_logo.png" height="20px" width="20px">
+<a href="https://github.com/sohelx196" id="xlogo"><input type="button" value="GITHUB"></a><br>
 
 <img src="D:\JAVA PROGRAMME\web photos\x1.png"  height="20px" width="20px">
-<a href="https://twitter.com/devloper196" target="_blank">Twitter</a>
+<a href="https://twitter.com/devloper196" target="_blank" id="gitlogo"><input type="button" value="Twitter"></a>
 </div>
 
 
+
   </body>
+</html>
 </html>
