@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    #mynav{
+        border: 2px solid red;
+        text-align: center;
+    }
+  #child1{
+    height:600px;
+    width:20%;
+    background-color: grey;
+  }
+  
+  #child2{
+    height:100px;
+    width:80%;
+    background-color: blue;
+  }
+  #child3{
+    height: 100px;
+    width:80%;
+    background-color: yellow;
+  }
+#parent{
+    display: flex;
+    
+}
+
+
+    </style>
+</head>
+<body>
+<div id="mynav">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">My Work</a>
+
+    </nav>
+</div>
+<div id="parent">
+
+
+    <div id="child1">hello</div>
+
+<div id="content-bar">
+       <div id="child2">content </div>
+        <div id="child3">bar</div>
+
+    </div>
+
+</div>
+
+
+     
+    
+</body>
+</html>
